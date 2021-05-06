@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+.randomizer{
+    width: 600px !important;
+    min-height: 300px !important;
+}
+
+label{
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+input{
+    width: 100%;
+    min-height: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    color: black;
+    background: none;
+}
+.rand-body{
+    padding: 1rem;
+    flex-direction: column-reverse !important;
+}
+ul{
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+li{
+    width: 100%;
+    min-height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.winner{
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}
