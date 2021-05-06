@@ -34,7 +34,7 @@ input{
     flex-direction: column-reverse !important;
 }
 ul{
-    padding: 0;
+    padding: 0 !important;
     width: 100%;
     list-style-type: none;
 }
